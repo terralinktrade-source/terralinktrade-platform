@@ -1,0 +1,33 @@
+{
+  "name": "terralinktrade-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:seed": "ts-node --transpile-only prisma/seed.ts"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next-auth": "^4.22.1",
+    "@prisma/client": "^5.0.0",
+    "@sendgrid/mail": "^7.7.0",
+    "sentry": "^0.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "prisma": "^5.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^2.8.0",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.0"
+  }
+}
