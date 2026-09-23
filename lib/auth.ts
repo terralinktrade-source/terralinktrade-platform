@@ -1,4 +1,3 @@
-import NextAuth from 'next-auth'
 import EmailProvider from 'next-auth/providers/email'
 
 export const authOptions = {
@@ -22,6 +21,4 @@ export const authOptions = {
   },
 }
 
-export default function AuthHandler(req: any, res: any) {
-  return NextAuth(req, res, authOptions as any)
-}
+export default authOptions

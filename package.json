@@ -18,14 +18,16 @@
     "react-dom": "^18.2.0",
     "next-auth": "^4.22.1",
     "@prisma/client": "^5.0.0",
-    "@sendgrid/mail": "^7.7.0",
-    "sentry": "^0.0.1"
+    "@sendgrid/mail": "^7.7.0"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
     "ts-node": "^10.9.1",
     "prisma": "^5.0.0",
     "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
     "prettier": "^2.8.0",
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.0"
