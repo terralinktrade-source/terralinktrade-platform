@@ -19,7 +19,8 @@
     "next-auth": "^4.22.1",
     "@prisma/client": "^5.0.0",
     "@sendgrid/mail": "^7.7.0",
-    "sentry": "^0.0.1"
+    "@sentry/nextjs": "^8.0.0"
+
   },
   "devDependencies": {
     "typescript": "^5.0.0",
