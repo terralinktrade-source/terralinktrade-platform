@@ -235,7 +235,7 @@ const styles: Record<string, React.CSSProperties> = {
     width: '100%',
     padding: '15px 18px',
     borderRadius: '12px',
-    background: 'linear-gradient(135deg, #193f38 0%, #23574e 100%)',
+    background: 'linear-gradient(135deg, #193f38 0%, #01f3f0 100%)',
     color: '#ffffff',
     fontWeight: 700,
     fontSize: '1rem',
