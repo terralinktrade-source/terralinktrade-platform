@@ -1,8 +1,8 @@
 import React from 'react'
 import { getServerSession } from 'next-auth'
-import authOptions from '../../../lib/auth'
+import { authOptions } from '../../../lib/auth'
 
-const trustSignals = ['Supplier coordination', 'Trade visibility', 'Secure partner access']
+
 
 export default async function SignInPage() {
   const session = await getServerSession(authOptions)
